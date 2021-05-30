@@ -1,0 +1,75 @@
+{
+  "personalinfo": {
+    "name":"PinSheng Juan",
+    "description":"",
+    "image":"",
+    "bio":"",
+    "email": "pinshengjuan@gmail.com",
+    "phone": "+886-972-373-720",
+    "website": "http://pinshengjuan.github.io",
+    "social":[
+      {
+        "name":"email",
+        "url":"mailto:pinshengjuan@gmail.com",
+        "className":"fa fa-envelope"
+      },
+      {
+        "name":"linkedin",
+        "url":"http://linkedin.com/in/pinshengjuan",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/pinshengjuan",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"",
+    "education":[
+      {
+        "school":"National Chung Cheng University",
+        "degree":"Masters in Communication Engineering",
+        "graduated":"October 2017",
+        "description":""
+      },
+      {
+        "school":"Feng Chia University",
+        "degree":"Bachelor in Communication Engineering",
+        "graduated":"June 2015",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"ASRock Inc.",
+        "title":"Senior Engineer",
+        "years":"December 2017 - Present",
+        "description":""
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+        "name":"C",
+        "level":"70%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"Electron",
+        "level":"30%"
+      },
+      {
+        "name":"Python",
+        "level":"50%"
+      }
+    ]
+  }
+}
