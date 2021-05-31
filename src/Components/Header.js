@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Typing from 'react-typing-animation';
 
 class Header extends Component {
   render() {
@@ -34,6 +35,12 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
+            <h3 className="responsive-headline"><span class="hellocolor">
+            <Typing speed={80}>
+               <span>Hello,</span>
+               <Typing.Delay ms={200*1000} />
+            </Typing>
+            </span></h3>
             <h1 className="responsive-headline">I'm {name}.</h1>
             {/* <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3> */}
             <hr />
