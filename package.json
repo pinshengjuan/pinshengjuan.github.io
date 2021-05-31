@@ -1,6 +1,6 @@
 {
   "name": "pinshengjuan.github.io",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "homepage": "https://pinshengjuan.github.io/",
   "dependencies": {
@@ -11,6 +11,8 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "react-typical": "^0.1.3",
+    "react-typing-animation": "^1.6.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
