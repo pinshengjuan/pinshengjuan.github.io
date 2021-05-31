@@ -58,8 +58,8 @@ header .banner {
 }
 
 header .banner-text { width: 100%; }
-header .banner-text h1{
-   font: 90px/1.1em 'Fira Code', 'poppins-medium', 'opensans-bold', sans-serif;
+header .banner-text h1 {
+   font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
@@ -126,7 +126,6 @@ header .scrolldown a {
 header .scrolldown a:hover { color: #11ABB0; }
 
 header .hellocolor {
-   /* color: #F06000; */
    color: #FF9800;
 }
 
