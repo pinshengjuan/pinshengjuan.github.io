@@ -125,6 +125,10 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #11ABB0; }
 
+header .hellocolor {
+   color: #FF9800;
+}
+
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
