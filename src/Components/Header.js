@@ -37,7 +37,7 @@ class Header extends Component {
          <div className="banner-text">
             <h1 className="responsive-headline"><span class="hellocolor">
             <Typing speed={80}>
-               <span>Hello,</span>
+               <span>Hello,1</span>
                <Typing.Delay ms={200*1000} />
             </Typing>
             </span></h1>
