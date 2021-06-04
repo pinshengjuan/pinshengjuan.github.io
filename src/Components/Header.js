@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Typing from 'react-typing-animation';
+import Typist from 'react-text-typist';
 
 class Header extends Component {
   render() {
@@ -36,10 +36,7 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline"><span class="hellocolor">
-            <Typing speed={80}>
-               <span>Hello,</span>
-               <Typing.Delay ms={200*1000} />
-            </Typing>
+               <Typist sentences={['Hello,']} loop={false} cursorColor='#c7c7c7' cursorBlinkSpeed={970}/>
             </span></h1>
             <h1 className="responsive-headline">I'm {name}.</h1>
             {/* <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3> */}
