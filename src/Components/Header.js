@@ -29,7 +29,7 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline"><span class="hellocolor">
+            <h1 className="responsive-headline"><span className="hellocolor">
                <Typist sentences={['Hello,']} loop={false} cursorColor='#c7c7c7' cursorBlinkSpeed={970}/>
             </span></h1>
             <h1 className="responsive-headline">I'm {name}.</h1>
