@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Typist from 'react-text-typist';
-
+// https://www.npmjs.com/package/@jsasz/react-typist
+import Typist from 'react-typist';
+import '../../node_modules/react-typist/dist/Typist.css'
 class Header extends Component {
   render() {
 
@@ -29,10 +30,12 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline"><span className="hellocolor">
-               <Typist sentences={['Hello,']} loop={false} cursorColor='#c7c7c7' cursorBlinkSpeed={970}/>
-            </span></h1>
-            <h1 className="responsive-headline">I'm {name}.</h1>
+            <h1 className="responsive-headline">
+               <Typist cursor={{ element: '_' }}>
+                  > Hello, <br />
+                  > I'm {name}.
+               </Typist>
+            </h1>
             <hr />
             <ul className="social">
                {networks}
