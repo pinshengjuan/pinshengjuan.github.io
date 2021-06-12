@@ -34,7 +34,6 @@ class Header extends Component {
       this.h1Style = {
         fontSize: actualFontSize,
       };
-      console.log("fontSize: " + this.h1Style.fontSize);
     }
 
     return (
