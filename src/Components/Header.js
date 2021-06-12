@@ -29,7 +29,7 @@ class Header extends Component {
     if (isMobile || isTablet) {
       var nameGreetingsLen = this.nameGreetings.length + 1; //Since "_" has to be calculated
       const actualFontSize = Math.floor(
-        (window.screen.width * 0.6) / nameGreetingsLen
+        ((window.screen.width) * 0.85/ nameGreetingsLen)
       );
       this.h1Style = {
         fontSize: actualFontSize,
